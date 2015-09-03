@@ -62,7 +62,7 @@ class RepositorySpec extends ObjectBehavior
 
     function its_url_is_mutable()
     {
-        $this->setUrl('https://github.com/kreta-io/kreta')->shouldReturn($this);
-        $this->getUrl()->shouldReturn('https://github.com/kreta-io/kreta');
+        $this->setUrl('https://github.com/kreta/kreta')->shouldReturn($this);
+        $this->getUrl()->shouldReturn('https://github.com/kreta/kreta');
     }
 }

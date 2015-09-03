@@ -57,15 +57,15 @@ class CommitSerializerSpec extends ObjectBehavior
                     'id'      => '11231',
                     'message' => 'Test commit',
                     'author'  => ['username' => 'gorkalaucirica'],
-                    'url'     => 'http://github.com/kreta-io/kreta'
+                    'url'     => 'http://github.com/kreta/kreta'
                 ],
-                'repository'  => ['full_name' => 'kreta-io/kreta']
+                'repository'  => ['full_name' => 'kreta/kreta']
             ]
         );
-        $repositoryRepository->findOneBy(['name' => 'kreta-io/kreta'])->shouldBeCalled()->willReturn($repository);
+        $repositoryRepository->findOneBy(['name' => 'kreta/kreta'])->shouldBeCalled()->willReturn($repository);
         $branchRepository->findOrCreateBranch($repository, 'master')->shouldBeCalled()->willReturn($branch);
 
-        $factory->create('11231', 'Test commit', $branch, 'gorkalaucirica', 'http://github.com/kreta-io/kreta')
+        $factory->create('11231', 'Test commit', $branch, 'gorkalaucirica', 'http://github.com/kreta/kreta')
             ->shouldBeCalled()->willReturn($commit);
 
         $this->deserialize($json)->shouldReturn($commit);
@@ -82,12 +82,12 @@ class CommitSerializerSpec extends ObjectBehavior
                     'id'      => '11231',
                     'message' => 'Test commit',
                     'author'  => ['username' => 'gorkalaucirica'],
-                    'url'     => 'http://github.com/kreta-io/kreta'
+                    'url'     => 'http://github.com/kreta/kreta'
                 ],
-                'repository'  => ['full_name' => 'kreta-io/kreta']
+                'repository'  => ['full_name' => 'kreta/kreta']
             ]
         );
-        $repositoryRepository->findOneBy(['name' => 'kreta-io/kreta'])->shouldBeCalled()->willReturn(null);
+        $repositoryRepository->findOneBy(['name' => 'kreta/kreta'])->shouldBeCalled()->willReturn(null);
 
         $this->deserialize($json)->shouldReturn(null);
     }

@@ -58,11 +58,11 @@ class BranchSpec extends ObjectBehavior
     function it_generates_url_for_github(RepositoryInterface $repository)
     {
         $repository->getProvider()->shouldBeCalled()->willReturn('github');
-        $repository->getName()->shouldBeCalled()->willReturn('kreta-io/kreta');
+        $repository->getName()->shouldBeCalled()->willReturn('kreta/kreta');
         $this->setRepository($repository);
         $this->setName('KRT-42-test-url-generation');
 
-        $this->getUrl()->shouldReturn('https://github.com/kreta-io/kreta/tree/KRT-42-test-url-generation');
+        $this->getUrl()->shouldReturn('https://github.com/kreta/kreta/tree/KRT-42-test-url-generation');
     }
 
     function it_generates_default_url(RepositoryInterface $repository)

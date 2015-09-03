@@ -33,7 +33,7 @@ class CommitFactorySpec extends ObjectBehavior
 
     function it_creates_a_commit(BranchInterface $branch)
     {
-        $this->create('11231', 'Test commit', $branch, 'gorkalaucirica', 'http://github.com/kreta-io/kreta')
+        $this->create('11231', 'Test commit', $branch, 'gorkalaucirica', 'http://github.com/kreta/kreta')
             ->shouldReturnAnInstanceOf('Kreta\Component\VCS\Model\Commit');
     }
 }

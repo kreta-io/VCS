@@ -1,14 +1,14 @@
 # Kreta VCS Component
 > VCS component of Kreta: modern project manager for software development.
 
-[![Build Status](https://travis-ci.org/kreta-io/VCS.svg?branch=master)](https://travis-ci.org/kreta-io/VCS)
-[![Coverage Status](https://img.shields.io/coveralls/kreta-io/VCS.svg)](https://coveralls.io/r/kreta-io/VCS)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/kreta-io/VCS/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kreta-io/VCS/?branch=master)
-[![HHVM Status](http://hhvm.h4cc.de/badge/kreta/VCS.svg)](http://hhvm.h4cc.de/package/kreta/VCS)
-[![Total Downloads](https://poser.pugx.org/kreta/VCS/downloads)](https://packagist.org/packages/kreta/VCS)
+[![Build Status](https://travis-ci.org/kreta-plugins/VCS.svg?branch=master)](https://travis-ci.org/kreta-plugins/VCS)
+[![Coverage Status](https://img.shields.io/coveralls/kreta-plugins/VCS.svg)](https://coveralls.io/r/kreta-plugins/VCS)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/kreta-plugins/VCS/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kreta-plugins/VCS/?branch=master)
+[![HHVM Status](http://hhvm.h4cc.de/badge/kreta-plugins/VCS.svg)](http://hhvm.h4cc.de/package/kreta-plugins/VCS)
+[![Total Downloads](https://poser.pugx.org/kreta-plugins/VCS/downloads)](https://packagist.org/packages/kreta-plugins/VCS)
 
-[![Latest Stable Version](https://poser.pugx.org/kreta/VCS/v/stable.svg)](https://packagist.org/packages/kreta/VCS)
-[![Latest Unstable Version](https://poser.pugx.org/kreta/VCS/v/unstable.svg)](https://packagist.org/packages/kreta/VCS)
+[![Latest Stable Version](https://poser.pugx.org/kreta-plugins/VCS/v/stable.svg)](https://packagist.org/packages/kreta-plugins/VCS)
+[![Latest Unstable Version](https://poser.pugx.org/kreta-plugins/VCS/v/unstable.svg)](https://packagist.org/packages/kreta-plugins/VCS)
 
 Tests
 -----
@@ -40,7 +40,7 @@ documentation. If you are submitting a pull request, please follow the guideline
 in the [Submitting a Patch][3] section and use the [Pull Request Template][4].
 
 If you have any doubt or maybe you want to share some opinion, you can use our **Gitter chat**.
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kreta-io/kreta?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kreta/kreta?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [1]: http://www.phpspec.net/
 [2]: http://symfony.com/doc/current/contributing/code/index.html
@@ -56,4 +56,4 @@ Kreta VCS Component is created by:
 
 Licensing Options
 -----------------
-[![License](https://poser.pugx.org/kreta/Notification/license.svg)](https://github.com/kreta-io/kreta/blob/master/LICENSE)
+[![License](https://poser.pugx.org/kreta-plugins/Notification/license.svg)](https://github.com/kreta/kreta/blob/master/LICENSE)

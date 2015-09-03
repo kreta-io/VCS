@@ -68,7 +68,7 @@ class CommitSpec extends ObjectBehavior
 
     function its_url_is_mutable()
     {
-        $this->setUrl('http://github.com/kreta-io/kreta')->shouldReturn($this);
-        $this->getUrl()->shouldReturn('http://github.com/kreta-io/kreta');
+        $this->setUrl('http://github.com/kreta/kreta')->shouldReturn($this);
+        $this->getUrl()->shouldReturn('http://github.com/kreta/kreta');
     }
 }
