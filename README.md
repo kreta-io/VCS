@@ -4,11 +4,11 @@
 [![Build Status](https://travis-ci.org/kreta-plugins/VCS.svg?branch=master)](https://travis-ci.org/kreta-plugins/VCS)
 [![Coverage Status](https://img.shields.io/coveralls/kreta-plugins/VCS.svg)](https://coveralls.io/r/kreta-plugins/VCS)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/kreta-plugins/VCS/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kreta-plugins/VCS/?branch=master)
-[![HHVM Status](http://hhvm.h4cc.de/badge/kreta-plugins/VCS.svg)](http://hhvm.h4cc.de/package/kreta-plugins/VCS)
-[![Total Downloads](https://poser.pugx.org/kreta-plugins/VCS/downloads)](https://packagist.org/packages/kreta-plugins/VCS)
+[![HHVM Status](http://hhvm.h4cc.de/badge/kreta/vcs.svg)](http://hhvm.h4cc.de/package/kreta/vcs)
+[![Total Downloads](https://poser.pugx.org/kreta/vcs/downloads)](https://packagist.org/packages/kreta/vcs)
 
-[![Latest Stable Version](https://poser.pugx.org/kreta-plugins/VCS/v/stable.svg)](https://packagist.org/packages/kreta-plugins/VCS)
-[![Latest Unstable Version](https://poser.pugx.org/kreta-plugins/VCS/v/unstable.svg)](https://packagist.org/packages/kreta-plugins/VCS)
+[![Latest Stable Version](https://poser.pugx.org/kreta/vcs/v/stable.svg)](https://packagist.org/packages/kreta/vcs)
+[![Latest Unstable Version](https://poser.pugx.org/kreta/vcs/v/unstable.svg)](https://packagist.org/packages/kreta/vcs)
 
 Tests
 -----
@@ -56,4 +56,4 @@ Kreta VCS Component is created by:
 
 Licensing Options
 -----------------
-[![License](https://poser.pugx.org/kreta-plugins/Notification/license.svg)](https://github.com/kreta/kreta/blob/master/LICENSE)
+[![License](https://poser.pugx.org/kreta/vcs/license.svg)](https://github.com/kreta/kreta/blob/master/LICENSE)
