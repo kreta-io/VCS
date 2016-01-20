@@ -21,6 +21,7 @@ use Kreta\Component\Issue\Model\Interfaces\IssueInterface;
 use Kreta\Component\Issue\Repository\IssueRepository;
 use Kreta\Component\Project\Model\Interfaces\ProjectInterface;
 use Kreta\Component\VCS\Model\Interfaces\RepositoryInterface;
+use PhpSpec\ObjectBehavior;
 
 /**
  * Class IssueRepositorySpec.
@@ -28,8 +29,10 @@ use Kreta\Component\VCS\Model\Interfaces\RepositoryInterface;
  * @author Beñat Espiña <benatespina@gmail.com>
  * @author Gorka Laucirica <gorka.lauzirika@gmail.com>
  */
-class IssueRepositorySpec extends BaseEntityRepository
+class IssueRepositorySpec extends ObjectBehavior
 {
+    use BaseEntityRepository;
+
     function let(EntityManager $manager, IssueRepository $issueRepository)
     {
         $manager->getRepository('Kreta\Component\Issue\Model\Issue')->shouldBeCalled()->willReturn($issueRepository);

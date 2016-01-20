@@ -19,6 +19,7 @@ use Doctrine\ORM\Query\Expr;
 use Doctrine\ORM\QueryBuilder;
 use Kreta\Component\Core\spec\Kreta\Component\Core\Repository\BaseEntityRepository;
 use Kreta\Component\VCS\Model\Interfaces\CommitInterface;
+use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
 /**
@@ -27,8 +28,10 @@ use Prophecy\Argument;
  * @author Beñat Espiña <benatespina@gmail.com>
  * @author Gorka Laucirica <gorka.lauzirika@gmail.com>
  */
-class CommitRepositorySpec extends BaseEntityRepository
+class CommitRepositorySpec extends ObjectBehavior
 {
+    use BaseEntityRepository;
+
     function let(EntityManager $manager, ClassMetadata $classMetadata)
     {
         $this->beConstructedWith($manager, $classMetadata);
