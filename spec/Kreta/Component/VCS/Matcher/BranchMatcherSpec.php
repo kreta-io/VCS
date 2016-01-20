@@ -45,8 +45,7 @@ class BranchMatcherSpec extends ObjectBehavior
         BranchInterface $branch,
         IssueRepository $issueRepository,
         IssueInterface $issue,
-        RepositoryInterface $repository,
-        BranchInterface $branch
+        RepositoryInterface $repository
     ) {
         $branch->getRepository()->shouldBeCalled()->willReturn($repository);
         $branch->getName()->shouldBeCalled()->willReturn('feature/PR0-1-test-relation-with-issues');

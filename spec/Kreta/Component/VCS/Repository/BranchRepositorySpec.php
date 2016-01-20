@@ -53,8 +53,7 @@ class BranchRepositorySpec extends BaseEntityRepository
         Expr\Comparison $comparison,
         AbstractQuery $query,
         BranchInterface $branch,
-        RepositoryInterface $repository,
-        BranchInterface $branch
+        RepositoryInterface $repository
     ) {
         $queryBuilder = $this->getQueryBuilderSpec($manager, $queryBuilder);
         $this->addCriteriaSpec($queryBuilder, $expr, ['name' => 'master'], $comparison);
